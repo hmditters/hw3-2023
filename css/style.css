@@ -13,7 +13,7 @@ header, nav{
 nav ul li{
     /* Set display, margin, padding, font-size, background-color */
     display: inline-block;
-    margin: 0 10px;
+    margin: 10px 10px 10px 10px;
     padding: 10px 25px 15px 15px;
     font-size: 16px;
     background-color: rgb(245, 223, 187);
@@ -61,16 +61,19 @@ h1, h2, h3{
     /*Set width, margin, border properties, background color, and grid properties */
     width: 90%;
     margin: 0 auto;
-    border-radius: 10px;
-    grid-row-gap: 10px;
+    border-radius: 25px;
+    grid-row-gap: 25px;
     display: grid;
     grid-template-columns: repeat(3, 30%);
     grid-gap: 20px;
-    background-color: rgb(205, 203, 203);
+    background-color: rgb(94, 109, 144);
 }
 
 .grid div{
     /* Set border properties, padding, and background color */
+    padding: 10px 10px 10px 10px;
+    border-radius: 25px;
+    background-color: rgb(205, 203, 203);
 
 }
 
@@ -112,5 +115,6 @@ p{
 .grid ul li{
     /* Set margin, line-spacing, list styling  */
     line-height: 1;
+    margin: 10px 10px 10px 35px;
     list-style-image: url('/images/sketchbook.png');
 }
